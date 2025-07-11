@@ -137,6 +137,9 @@ class Wordle():
                 else:
                     colored_text += colored(box_letter, "green")
 
+            # If there are too many spaces, comment the line below
+            colored_text += " "
+
         return colored_text
 
 

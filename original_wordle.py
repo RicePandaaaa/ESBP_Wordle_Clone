@@ -120,6 +120,10 @@ def color_text(key_word: str, guess: str) -> str:
             else:
                 colored_text += colored(box_letter, "green")
 
+        
+        # If there are too many spaces, comment the line below
+        colored_text += " "
+
     return colored_text
 
 
